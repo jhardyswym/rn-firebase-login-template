@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "592685821950",
+    "project_id": "react-native-fb-login-template",
+    "storage_bucket": "react-native-fb-login-template.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592685821950:android:e9fd254b5bca3d46545aaf",
+        "android_client_info": {
+          "package_name": "com.projectname"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592685821950-ksltkvj6tgkedatk7dbustqcld5fmi4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projectname",
+            "certificate_hash": "4fb8256a8ae60a52d9da0f0c16fd861803e3e92c"
+          }
+        },
+        {
+          "client_id": "592685821950-rn8rteh327h0rk086p3nf773akoctt4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdxnv-PH-lFyoEFpu_W9J7ndiakBJKASc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592685821950-rn8rteh327h0rk086p3nf773akoctt4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

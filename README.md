@@ -45,7 +45,7 @@ Now Select Authentication -> Get Started
 
 
 Now under Sign in Methods -> Email/Password Enable Sign in and Save.
-![enemail](img/enemain.png)
+![enemail](img/enableemain.png)
 
 
 Congrats! You should be able to register and sign in under your Firebase account now!

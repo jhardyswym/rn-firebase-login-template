@@ -46,7 +46,7 @@ export default class Splash extends React.Component
     render(){
         return(
             <View style={styles.container}>
-                <Text style={styles.splashTxt}>Sign Signal Mobile</Text>
+                <Text style={styles.splashTxt}>React Native Login</Text>
             </View>
         )
     }

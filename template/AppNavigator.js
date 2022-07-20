@@ -25,6 +25,13 @@ export default class AppNavigator extends React.Component
     componentDidMount(){
         
     }
+    logUserOut = () => {
+        auth().signOut()
+        .then(()=>{
+            this.props.navigation.replace('Auth');
+        })
+        .catch((err)=>console.log('Error logging out:',err))
+    }
     profileIconPressed = () =>{
         console.log("Profile Pressed")
         Alert.alert(

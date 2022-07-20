@@ -208,7 +208,7 @@ const styles = StyleSheet.create({
         borderColor: 'black',
       },
       buttonStyle: {
-        backgroundColor: '#black',
+        backgroundColor: 'black',
         borderWidth: 0,
         color: 'black',
         borderColor: 'black',

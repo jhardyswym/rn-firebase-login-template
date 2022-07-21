@@ -8,10 +8,6 @@
 
 import React, { useState } from 'react';
 import type {Node} from 'react';
-import {
-  StyleSheet,
-
-} from 'react-native';
 
 
 import { NavigationContainer } from '@react-navigation/native';

@@ -1,12 +1,10 @@
 import React from 'react';
-import type {Node} from 'react';
 import {
   StyleSheet,
   Text,
   View,
 } from 'react-native';
 
-import {createStackNavigator} from '@react-navigation/stack';
 import auth from '@react-native-firebase/auth';
 
 export default class AppMain extends React.Component

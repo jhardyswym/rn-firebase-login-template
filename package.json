@@ -4,5 +4,8 @@
   "description": "React Native Firebase Login Template",
   "repository": "git@github.com:jhardyswym/rn-firebase-login-template.git",
   "author": "Jordan Hardy <jordan@swymconsulting.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "patch-package": "^6.4.7"
+  }
 }

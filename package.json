@@ -6,6 +6,7 @@
   "author": "Jordan Hardy <jordan@swymconsulting.com>",
   "license": "MIT",
   "dependencies": {
-    "patch-package": "^6.4.7"
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0"
   }
 }

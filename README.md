@@ -63,6 +63,37 @@ And in a seperate terminal:
 ```bash
 npx react-native run-android
 ```
+
+## iOS Setup
+
+NOTE: The app will not run before performing these steps on iOS, since Apple sucks.
+
+First, perform the same Firebase Console setup as Android, but for an iOS app. Replace the GoogleService-Info.plist with the one downloaded from your Firebase account.
+
+Next, edit the file node_modules/react-native/scripts/react_native_pods.rb LINE 410 to:
+
+```
+'ios' => '12.0',
+```
+
+Finally, run the command
+
+```bash
+    cd ios && pod install
+```
+
+Congrats, the app is now set up. To run:
+
+```bash
+    npx react-native start
+```
+
+and in a seperate terminal:
+
+```bash
+    npx react-native run-ios
+```
+OR Run from XCode (open the .xcworkspace file created when react-native init is run)
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
